@@ -1,5 +1,4 @@
 import { globalCss } from ".";
-import backgroundImage from '../assets/background.png'
 export const globalStyles =  globalCss({
     '*':{
         padding:0,
@@ -11,14 +10,14 @@ export const globalStyles =  globalCss({
     },
     body:{
         backgroundColor:'$black',
-        backgroundImage:`url(${backgroundImage.src})`
+      
 
     },
     'body,input,button,textarea':{
         '-webkit-font-smoothing':'antialiased',
         fontFamily:"'IBM Plex Sans', sans-serif;",
         fontWeight:'400',
-        color:'$white'
+        
     },
 
     'button':{
