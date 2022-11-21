@@ -2,8 +2,9 @@ import { styled } from "../..";
 import backgroundImage from '../../../assets/background.png'
 
 export const HomeContainer = styled('main',{
-    height: '100vh',
-    width:'100vw',
+
+    height:'100%',
+    padding:'3.2rem',
     display: 'grid',
     gridTemplateColumns:'1fr 1fr',
     margin:'auto',
