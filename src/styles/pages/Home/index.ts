@@ -66,16 +66,35 @@ export const InputGroup = styled('div',{
     flexDirection:'column',
     gap:'1rem',
     padding:'0 1rem',
+    li:{
+        fontSize:'12px'
+    },
     input:{
         width:'100%',
         padding:'1rem',
     },
-    button:{
+    '&>button':{
         width:'100%',
         padding:'1rem',
         backgroundColor:'$gray900',
         color:'$white',
         fontWeight:'bold',
         fontSize:'1.2rem'
+    },
+    span:{
+        button:{
+            display:'inline',
+            width:"100px",
+            backgroundColor:'$gray900',
+            color:'$white',
+            fontWeight:'bold',
+
+        },
+   
+    },
+    label:{
+        dialog:{
+            padding:'.2rem'
+        }
     }
 })
